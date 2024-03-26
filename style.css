@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(222, 95, 116);
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 50px;
+}
+
+.head h1{
+    color: royalblue;
+    font-weight: 900;
+    font-family: math;
+}
+
+.navbar ul{
+    list-style: none;
+    margin-right: 450px;
+}
+
+.navbar li{
+    display: inline;
+    padding: 40px;
+}
+
+.navbar li a{
+    color: rgb(249, 249, 249);
+    text-decoration: none;
+    font-weight: 900;
+    font-family: josefin sans;
+}
+
+.navbar li a:hover{
+    color: rgb(45, 45, 45);
+    transition: 0.6s;
+}
+
+button {
+    margin: 10px 10px 10px 1020px;
+    position: absolute;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+button a{
+    color: grey;
+    text-decoration: none;
+}
+
+.mid1{
+    margin: 100px 0px;
+}
+
+.mid1 #p1 {
+    padding: 100px 550px 100px 150px;
+    color: black;
+    font-family: math;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.mid1 #p2 {
+    padding: 10px 600px 30px 150px;
+    color: white;
+    font-family: math;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.right {
+    position: absolute;
+    border-radius: 20px;
+    background-color: white;
+    height: 500px;
+    width: 240px;
+    margin: 980px 10px 10px 850px;
+    box-shadow: 3px 3px 8px 5px grey;
+}
+
+#btn-1{
+    margin: 10px 10px 10px 10px;
+}
+
+#btn-1{
+    margin: 10px 10px 10px 200px;
+    position: absolute;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+#btn-1 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#btn-1{
+    color: white;
+    background-color: black;
+}
+
+#btn-2{
+    margin: 10px 10px 10px 400px;
+    position: absolute;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+#btn-2 a{
+    color: black;
+    text-decoration: none;
+}
