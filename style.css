@@ -5,25 +5,25 @@
 }
 
 body{
-    background-color: rgb(222, 95, 116);
+    background: linear-gradient(to left, rgb(49, 92, 156), rgb(180, 26, 52));
 }
 
-.head{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 10px 50px;
+
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
 
-.head h1{
-    color: royalblue;
+.logo h1{
+    color: #fff;
     font-weight: 900;
     font-family: math;
 }
 
-.navbar ul{
+.navbar ul {
     list-style: none;
-    margin-right: 450px;
+    margin: 30px 380px;
 }
 
 .navbar li{
@@ -43,17 +43,23 @@ body{
     transition: 0.6s;
 }
 
-button {
-    margin: 10px 10px 10px 1020px;
+.btn-1 {
     position: absolute;
+    top: 20px;
+    right: 100px;
+}
+
+.btn-1 button {
+    margin: 10px 10px 10px 1020px;
     border: 0;
     outline: 0;
     border-radius: 6px;
     padding: 6px;
+    width: 100px;
 }
 
 button a{
-    color: grey;
+    color: rgb(80, 79, 79);
     text-decoration: none;
 }
 
@@ -62,10 +68,10 @@ button a{
 }
 
 .mid1 #p1 {
-    padding: 100px 550px 100px 150px;
+    padding: 100px 600px 100px 150px;
     color: black;
     font-family: math;
-    font-size: 100px;
+    font-size: 50px;
     font-weight: 900;
 }
 
@@ -77,14 +83,15 @@ button a{
     font-weight: 900;
 }
 
-.right {
+.right{
     position: absolute;
-    border-radius: 20px;
-    background-color: white;
-    height: 500px;
-    width: 240px;
-    margin: 980px 10px 10px 850px;
-    box-shadow: 3px 3px 8px 5px grey;
+    top: 200px;
+    right: 150px;
+}
+
+.right img{
+    width: 450px;
+    height: 450px;
 }
 
 #btn-1{
@@ -108,6 +115,7 @@ button a{
 #btn-1{
     color: white;
     background-color: black;
+    width: 90px;
 }
 
 #btn-2{
